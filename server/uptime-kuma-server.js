@@ -98,6 +98,7 @@ class UptimeKumaServer {
         // Set Monitor Types
         UptimeKumaServer.monitorTypeList["real-browser"] = new RealBrowserMonitorType();
         UptimeKumaServer.monitorTypeList["tailscale-ping"] = new TailscalePing();
+        UptimeKumaServer.monitorTypeList["noindex"] = new NoindexMonitorType();
 
         // Allow all CORS origins (polling) in development
         let cors = undefined;
@@ -479,3 +480,4 @@ module.exports = {
 // Must be at the end to avoid circular dependencies
 const { RealBrowserMonitorType } = require("./monitor-types/real-browser-monitor-type");
 const { TailscalePing } = require("./monitor-types/tailscale-ping");
+const { NoindexMonitorType } = require("./monitor-types/noindex");

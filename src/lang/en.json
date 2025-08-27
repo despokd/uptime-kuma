@@ -51,6 +51,7 @@
     "Ping": "Ping",
     "Monitor Type": "Monitor Type",
     "Keyword": "Keyword",
+    "Noindex": "Noindex",
     "Invert Keyword": "Invert Keyword",
     "Expected Value": "Expected Value",
     "Json Query": "Json Query",
